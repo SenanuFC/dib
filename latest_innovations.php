@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Digital Youth Information Bank</title>
+    <title>Digital Info Bank | Latest Innovations</title>
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -16,19 +15,18 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="./favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->       
+<link rel="shortcut icon" href="images/ico/logo.png">
+<!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">-->
 </head><!--/head-->
 
-
-<body id="home" class="homepage">
+<body id="latest_innovations" class="latest_innovations">
 
     <header id="header">
         <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
@@ -40,39 +38,31 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                          <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" style= "height: 60px; width: auto;"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" style= "height: 60px; width: auto;"></a>
                 </div>
-                
+
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">Home</a></li>
-                      
-                        <!-- <li class="scroll"><a href="#services">Services</a></li> -->
-                        <li class="scroll"><a href="#portfolio">Upcoming Events</a></li>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a><ul class="dropdown-menu">
-                                <li><a href="blog-item.html">Team</a></li>
-                                <li><a href="pricing.html">Project</a></li>
-                                
-                                <li><a href="shortcodes.html">MFWA</a></li>
-                            </ul>
-                            </li>
-                        <li class="scroll"><a href="#meet-team">Team</a></li>
-
-                        <li class="scroll"><a href="./latest_innovations.html">Latest Innovation</a></li> 
-                        <li class="scroll"><a href="#blog">Join the Conversation</a></li> 
-                        <li class="scroll"><a href="#get-in-touch">Contact Us</a></li>                        
+                        <li class="scroll"><a href="index.html#home">Home</a></li>
+                        <li class="scroll"><a href="index.html#features">Features</a></li>
+                        <li class="scroll"><a href="index.html#services">Services</a></li>
+                        <li class="scroll"><a href="index.html#about">About</a></li>
+                        <li class="scroll"><a href="index.html#meet-team">Team</a></li>
+                        <li class = "scroll active"><a href="latest_innovations.html">Latest Innovations</a></li> 
+                        <li class="scroll"><a href="index.html#get-in-touch">Contact</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->
     </header><!--/header-->
 
-<!-- Blog Code Start -->
-<section id="blog">
+
+    <!-- Blog Code Start -->
+    <section id="blog">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Latest Innovations</h2>
-                <p class="text-center wow fadeInDown">The Latest Tech and Innovations from all over the world brought to you by the Digital Youth Information Bank.</p>
+                <p class="text-center wow fadeInDown">Keep up to date with the latest innovations in the world of ICT<br></p>
             </div>
 
             <div class="row">
@@ -157,7 +147,10 @@
 
         </div>
     </section>
-    </body>
+
+    <!-- Blog Code Finish -->
+
+
     <footer id="footer">
         <div class="container">
             <div class="row">
@@ -193,6 +186,5 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
-
+</body>
 </html>
-    <!-- Blog Code Finish -->
