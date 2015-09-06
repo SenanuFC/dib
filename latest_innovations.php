@@ -43,8 +43,8 @@
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="scroll"><a href="index.html#home">Home</a></li>
-                        <li class="scroll"><a href="index.html#features">Features</a></li>
+                        <li class="scroll"><a href="./index.html#home">Home</a></li>
+                        <li class="scroll"><a href="./index.html#features">Features</a></li>
                         <li class="scroll"><a href="index.html#services">Services</a></li>
                         <li class="scroll"><a href="index.html#about">About</a></li>
                         <li class="scroll"><a href="index.html#meet-team">Team</a></li>
